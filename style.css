@@ -1,0 +1,67 @@
+/* Styles for search input section */
+.search-input {
+    margin-bottom: 20px;
+}
+
+.search-input form {
+    display: flex;
+}
+
+.search-input input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.search-input button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-input button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for user cards */
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.avatar {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-top: 10px;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.profile-link:hover {
+    color: #007bff;
+}
